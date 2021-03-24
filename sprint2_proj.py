@@ -332,7 +332,7 @@ if navigation == 'Objective 1':
     st.write('------------------------------')
     st.header('Which artists should we market together with client artists in featured playlists?')
     st.write('------------------------------')
-    opt4 = st.selectbox('Please select information', ['Default', 'Mean Followers For Playlists with Top 20 Artists','Most Frequently Appearing 20 Artists in Playlists with 100,000+ Followers', 'Most Popular Artists with their Streams Performace'])
+    opt4 = st.selectbox('Please select information', ['Default', 'Mean Followers For Playlists with Top 20 Artists','Most Frequently Appearing 20 Artists in Playlists with 100,000+ Followers', 'Most Popular Artists with their Streams Performance'])
     
     ####
     df_playlist = pd.read_csv('OPM_playlist_tracks_data.csv')
