@@ -22,6 +22,7 @@ st.sidebar.write('------------------------------')
 navigation = st.sidebar.radio('Selection', ['Introduction', 'Client Artist','Business Objective','Data Collection and Preprocessing', 'Exploratory Data Analysis','Objective 1', 'Objective 2', 'Objective 3' ,'Business Solutions', 'Recommender Engine', 'Creators'])
 
 if navigation == 'Introduction':
+    st.title('Recommendation Engine: Exploring the Philippine Indie Music using K-means Clustering')
     st.image('splogo.png', width = 800)
 
 if navigation == 'Client Artist':
