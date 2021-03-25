@@ -106,7 +106,8 @@ if navigation == 'Business Objective':
         
 
 if navigation == 'Data Collection and Preprocessing':
-    st.title('Data Collection and Preprocessing')
+    st.title('Spotify Song Solutions')
+    st.header('Data Collection and Preprocessing')
     st.write('------------------------------')
     optt = st.selectbox('Please select information', ['Dataset Schema', 'Tools and Packages', 'Main Processes'])
     if optt == 'Dataset Schema':
@@ -537,7 +538,6 @@ if navigation == 'Objective 3':
 
     
 if navigation == 'Business Solutions':
-    st.write('------------------------------')  
     st.title('Spotify Song Solutions')
     st.write('------------------------------')  
     st.subheader('Client Artist Recommendation')
